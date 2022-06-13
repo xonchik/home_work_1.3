@@ -40,12 +40,12 @@ public class Main {
         //Напишите программу, которая выдает сообщение в консоль:
         //"Потребуется дней: " + срок доставки
 
-        int deliveryDistance = 88;
+        int deliveryDistance = 100;
         if (deliveryDistance < 20) {
             System.out.println("Потребуется дней: 1");
         }else if (deliveryDistance >= 20 && deliveryDistance < 60) {
             System.out.println("Потребуется дней: 2");
-        }else {
+        }else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
             System.out.println("Потребуется дней: 3");
         }
 
